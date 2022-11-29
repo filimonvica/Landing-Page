@@ -27,6 +27,7 @@ body {
 ul {
     display: flex;
     flex-direction: row;
+    margin-right: 150px;
 }
 
 .navbar {
@@ -40,6 +41,8 @@ ul {
     width: 50%;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
 }
 
 h1 {
@@ -60,6 +63,8 @@ h1 {
     align-items: center;
     flex-direction: column;
     width: 50%;
+    margin-right: 150px;
+    margin-bottom: 100px;
 }
 
 .content-left {
@@ -68,6 +73,7 @@ h1 {
     width: 50%;
     justify-content: center;
     margin-left: 150px;
+    margin-bottom: 150px;
 }
 
 img {
@@ -83,8 +89,131 @@ img {
 .sign-up-header {
     background-color: #3882F6;
     color: white;
-    width: 100px;
-    height: 30px;
+    width: 140px;
+    height: 40px;
     border-radius: 10px;
     border: 1px #3882F6;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.cards {
+   display: flex;
+   flex-direction: row; 
+   justify-content: space-between;
+   max-width: 100%;
+   align-items: center;
+   margin: 50px;
+   margin-left: 300px;
+   margin-right: 300px;
+}
+
+.box-blue {
+    border: 3px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p-second {
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    margin-left: 300px;
+}
+
+.p-third {
+    font-weight: bolder;
+    color: #1f2937;
+    font-size: 24px;
+    align-self: flex-end;
+    margin-right: 300px;
+}
+
+.signup-section {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.blue-container {
+    background-color: #3882F6;
+    width: 75%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.left {
+    width: 80%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h4 {
+    font-size: 24px;
+    color: white;
+}
+
+.last-p {
+    color: white;
+    font-size: 18px;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.sign-button {
+    background-color: #3882F6;
+    color: white;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    height: 100px;
 }
